@@ -3,7 +3,7 @@ const socket = new Socket()
 const { readline } = require("./utils/readline")
 
 const PORT = 8888
-const HOST = "localhost"
+const HOST = "201.221.172.34"
 
 const main = (host, port) => {
     socket.setEncoding("utf-8")
